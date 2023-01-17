@@ -184,6 +184,10 @@ header,
   font-size: 32px;
 }
 
+#data-area {
+  background: black url("../img/cidadeparallax.png") no-repeat fixed;
+  background-size: cover;
+}
 #data-area p {
   color: #fff;
   text-align: center;
@@ -233,6 +237,11 @@ header,
   margin-bottom: 20px;
 }
 
+#pattern-img {
+  background: url("../img/pattern.png") no-repeat fixed;
+  background-size: cover;
+}
+
 #apply-btn {
   display: block;
   height: auto;
@@ -244,7 +253,38 @@ header,
   border-color: #fff;
 }
 
-#apply-btn {
+#apply-btn:hover {
   border-color: #65daf9;
   background-color: #65daf9;
+}
+
+/*Portfolio*/
+
+.project-box {
+  margin-bottom: 30px;
+}
+
+#filter-btn-box {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#portfolio-area .filter-btn {
+  color: #444;
+  border: 1px solid #444;
+  background-color: transparent;
+  text-transform: none;
+  margin: 0 15px;
+  min-width: 100px;
+  width: auto;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 20px;
+}
+
+#portfolio-area .filter-btn.active,
+#portfolio-area .filter-btn:hover {
+  color: #fff;
+  background-color: #65daf9;
+  border-color: #65daf9;
 }
