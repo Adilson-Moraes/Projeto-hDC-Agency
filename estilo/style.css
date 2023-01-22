@@ -25,7 +25,7 @@ li {
 
 header,
 .navbar {
-  background-color: #353d41;
+  background-color: #65daf9;
 }
 
 #nav-container {
@@ -613,5 +613,11 @@ header,
     width: 100px;
     height: 45px;
     font-size: 15px;
+  }
+}
+
+@media (min-width: 336px) and(max-width:425px) {
+  #mainSlider .carousel-caption .main-btn {
+    font-size: 12px;
   }
 }
